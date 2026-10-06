@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1040" viewBox="0 0 1680 1040" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-8%" y="-8%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#64748b" flood-opacity="0.45"/>
+    </filter>
+    <marker id="ha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#0b1f33"/>
+    </marker>
+    <marker id="hb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1f3448"/>
+    </marker>
+    <style>
+      .card { fill:#ffffff; stroke:#3f6fa8; stroke-width:2.4; }
+      .hdr { font-weight:700; font-size:19px; font-family:'Trebuchet MS',Segoe UI,sans-serif; }
+      .t { font-weight:700; font-size:14.5px; fill:#0b1f33; }
+      .m { font-size:13px; fill:#1f3448; }
+      .note { font-family:'Segoe Print','Comic Sans MS',cursive; font-weight:600; font-size:15.5px; fill:#123a63; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1680" height="1040" fill="#ffffff"/>
+
+  <!-- ===== Title brush banner ===== -->
+  <path d="M430,42 Q840,30 1252,44 Q1266,76 1250,104 Q840,116 430,102 Q416,72 430,42 Z" fill="#a9d4ff"/>
+  <text x="840" y="84" text-anchor="middle" font-size="42" font-weight="700" fill="#0b2440" font-family="Trebuchet MS, Segoe UI, sans-serif">AI Glossary — Keywords</text>
+  <path d="M560,132 Q840,124 1120,132" stroke="#3f6fa8" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="840" y="162" text-anchor="middle" font-size="18" font-weight="600" fill="#1f3448">30 terms for Generative AI, LLMs, Agentic AI &amp; QA — each with its plain-language meaning</text>
+
+  <g fill="#f4b400">
+    <path d="M398,64 l3,-11 3,11 11,3 -11,3 -3,11 -3,-11 -11,-3 Z"/>
+    <path d="M1276,58 l2.5,-9 2.5,9 9,2.5 -9,2.5 -2.5,9 -2.5,-9 -9,-2.5 Z"/>
+    <path d="M474,116 l2,-7 2,7 7,2 -7,2 -2,7 -2,-7 -7,-2 Z"/>
+    <path d="M1206,120 l2,-7 2,7 7,2 -7,2 -2,7 -2,-7 -7,-2 Z"/>
+    <rect x="352" y="56" width="16" height="5" rx="2.5"/>
+    <rect x="1300" y="96" width="16" height="5" rx="2.5"/>
+  </g>
+
+  <text class="note" x="150" y="60" transform="rotate(-4 150 60)">simple words first!</text>
+  <path d="M300,58 Q330,48 352,60" stroke="#1f3448" stroke-width="2" fill="none" marker-end="url(#hb)"/>
+
+  <!-- ================= CARD 1 : Foundations ================= -->
+  <g>
+    <rect x="40" y="190" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="70" y="212" width="463" height="44" rx="10" fill="#c3ddfb"/>
+    <text class="hdr" x="86" y="241" fill="#0f3d9e">1 · AI Foundations</text>
+    <g transform="translate(499,234)" stroke="#0f3d9e" stroke-width="2.2" fill="none">
+      <rect x="-13" y="-9" width="26" height="18" rx="5"/><circle cx="-5" cy="0" r="2.4" fill="#0f3d9e"/><circle cx="5" cy="0" r="2.4" fill="#0f3d9e"/>
+      <line x1="0" y1="-9" x2="0" y2="-15"/><circle cx="0" cy="-16.5" r="2" fill="#0f3d9e"/>
+    </g>
+    <circle cx="55" cy="234" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="55" y="241" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">1</text>
+    <line x1="70" y1="272" x2="533" y2="272" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="82" cy="298" r="3" fill="#0f3d9e"/><text class="t" x="96" y="303">Generative AI</text><text class="m" x="200" y="303">— creates new text, images or code</text>
+      <circle cx="82" cy="324" r="3" fill="#0f3d9e"/><text class="t" x="96" y="329">Neural Network</text><text class="m" x="214" y="329">— learns patterns from examples</text>
+      <circle cx="82" cy="350" r="3" fill="#0f3d9e"/><text class="t" x="96" y="355">Weights</text><text class="m" x="162" y="355">— the learned numbers = its memory</text>
+      <circle cx="82" cy="376" r="3" fill="#0f3d9e"/><text class="t" x="96" y="381">Parameter</text><text class="m" x="176" y="381">— a value it learns, or a setting</text>
+      <circle cx="82" cy="402" r="3" fill="#0f3d9e"/><text class="t" x="96" y="407">Attention</text><text class="m" x="176" y="407">— decides which words matter to which</text>
+      <circle cx="82" cy="428" r="3" fill="#0f3d9e"/><text class="t" x="96" y="433">Token</text><text class="m" x="146" y="433">— a small chunk of text (~3/4 word)</text>
+      <circle cx="82" cy="454" r="3" fill="#0f3d9e"/><text class="t" x="96" y="459">Embedding</text><text class="m" x="186" y="459">— numbers that capture meaning</text>
+      <circle cx="82" cy="480" r="3" fill="#0f3d9e"/><text class="t" x="96" y="485">Chatbot</text><text class="m" x="166" y="485">— a program you chat with in plain words</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 2 : Model Settings ================= -->
+  <g>
+    <rect x="581" y="190" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="611" y="212" width="463" height="44" rx="10" fill="#fbc7dd"/>
+    <text class="hdr" x="627" y="241" fill="#8f1246">2 · Model Settings</text>
+    <g transform="translate(1040,234)" stroke="#8f1246" stroke-width="2.4" fill="none">
+      <line x1="-15" y1="-5" x2="15" y2="-5"/><circle cx="5" cy="-5" r="5" fill="#ffffff"/>
+      <line x1="-15" y1="8" x2="15" y2="8"/><circle cx="-6" cy="8" r="5" fill="#ffffff"/>
+    </g>
+    <circle cx="596" cy="234" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="596" y="241" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">2</text>
+    <line x1="611" y1="272" x2="1074" y2="272" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="623" cy="304" r="3" fill="#a1154f"/><text class="t" x="637" y="309">Temperature</text><text class="m" x="737" y="309">— creativity dial: low = steady, high = varied</text>
+      <circle cx="623" cy="334" r="3" fill="#a1154f"/><text class="t" x="637" y="339">Top-p / Top-k</text><text class="m" x="746" y="339">— limits which next words are allowed</text>
+      <circle cx="623" cy="364" r="3" fill="#a1154f"/><text class="t" x="637" y="369">Context Window</text><text class="m" x="760" y="369">— how much text it can hold at once</text>
+    </g>
+    <g transform="translate(760,410)">
+      <line x1="0" y1="0" x2="220" y2="0" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="90" y2="0" stroke="#d1468a" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="90" cy="0" r="9" fill="#ffffff" stroke="#8f1246" stroke-width="3"/>
+    </g>
+    <text class="note" x="640" y="452" transform="rotate(-2 640 452)">turn these dials to change behaviour</text>
+    <path d="M900,430 Q940,436 968,420" stroke="#1f3448" stroke-width="2" fill="none" marker-end="url(#hb)"/>
+  </g>
+
+  <!-- ================= CARD 3 : Data & Retrieval ================= -->
+  <g>
+    <rect x="1122" y="190" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="1152" y="212" width="463" height="44" rx="10" fill="#b6ecd0"/>
+    <text class="hdr" x="1168" y="241" fill="#04543c">3 · Data &amp; Retrieval</text>
+    <g transform="translate(1581,234)" stroke="#04543c" stroke-width="2.2" fill="none">
+      <ellipse cx="0" cy="-11" rx="14" ry="5"/><path d="M-14,-11 V11 A14,5 0 0 0 14,11 V-11"/><path d="M-14,0 A14,5 0 0 0 14,0"/>
+    </g>
+    <circle cx="1137" cy="234" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="1137" y="241" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">3</text>
+    <line x1="1152" y1="272" x2="1615" y2="272" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="1164" cy="304" r="3" fill="#06694a"/><text class="t" x="1178" y="309">Chunks</text><text class="m" x="1246" y="309">— documents cut into searchable pieces</text>
+      <circle cx="1164" cy="334" r="3" fill="#06694a"/><text class="t" x="1178" y="339">Vector DB</text><text class="m" x="1258" y="339">— finds things by meaning, not exact words</text>
+      <circle cx="1164" cy="364" r="3" fill="#06694a"/><text class="t" x="1178" y="369">RAG</text><text class="m" x="1210" y="369">— look it up first, then answer from source</text>
+      <circle cx="1164" cy="394" r="3" fill="#06694a"/><text class="t" x="1178" y="399">Schema</text><text class="m" x="1244" y="399">— the agreed shape/format of data</text>
+      <circle cx="1164" cy="424" r="3" fill="#06694a"/><text class="t" x="1178" y="429">Ground Truth</text><text class="m" x="1288" y="429">— the known correct answer to grade against</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 4 : Prompting & Agents ================= -->
+  <g>
+    <rect x="40" y="520" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="70" y="542" width="463" height="44" rx="10" fill="#d9c2fb"/>
+    <text class="hdr" x="86" y="571" fill="#4b16a8">4 · Prompting &amp; Agents</text>
+    <g transform="translate(499,564)" stroke="#4b16a8" stroke-width="2.2" fill="none">
+      <rect x="-15" y="-13" width="30" height="21" rx="6"/><path d="M-6,8 L-6,16 L4,8"/>
+    </g>
+    <circle cx="55" cy="564" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="55" y="571" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">4</text>
+    <line x1="70" y1="602" x2="533" y2="602" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="82" cy="628" r="3" fill="#5b21b6"/><text class="t" x="96" y="633">Prompt</text><text class="m" x="164" y="633">— the instruction you give the model</text>
+      <circle cx="82" cy="654" r="3" fill="#5b21b6"/><text class="t" x="96" y="659">MCP</text><text class="m" x="146" y="659">— a standard plug for tools and data</text>
+      <circle cx="82" cy="680" r="3" fill="#5b21b6"/><text class="t" x="96" y="685">LangChain</text><text class="m" x="192" y="685">— toolkit to wire prompts, tools and data</text>
+      <circle cx="82" cy="706" r="3" fill="#5b21b6"/><text class="t" x="96" y="711">Agents</text><text class="m" x="166" y="711">— software that acts to reach a goal</text>
+      <circle cx="82" cy="732" r="3" fill="#5b21b6"/><text class="t" x="96" y="737">Agentic AI</text><text class="m" x="190" y="737">— AI that plans and acts on its own</text>
+      <circle cx="82" cy="758" r="3" fill="#5b21b6"/><text class="t" x="96" y="763">Skills</text><text class="m" x="156" y="763">— ready-made instruction packs it loads</text>
+      <circle cx="82" cy="784" r="3" fill="#5b21b6"/><text class="t" x="96" y="789">Harness</text><text class="m" x="180" y="789">— the rig around a model (tools, tests)</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 5 : Training ================= -->
+  <g>
+    <rect x="581" y="520" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="611" y="542" width="463" height="44" rx="10" fill="#fbe0a3"/>
+    <text class="hdr" x="627" y="571" fill="#7a3d05">5 · Training</text>
+    <g transform="translate(1040,564)" stroke="#7a3d05" stroke-width="2.2" fill="none">
+      <circle cx="0" cy="-3" r="10"/><line x1="-4" y1="8" x2="4" y2="8"/><line x1="-3" y1="12" x2="3" y2="12"/><line x1="0" y1="-13" x2="0" y2="-17"/>
+    </g>
+    <circle cx="596" cy="564" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="596" y="571" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">5</text>
+    <line x1="611" y1="602" x2="1074" y2="602" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="623" cy="634" r="3" fill="#996007"/><text class="t" x="637" y="639">Pre-training</text><text class="m" x="740" y="639">— the first huge learning phase</text>
+      <circle cx="623" cy="664" r="3" fill="#996007"/><text class="t" x="637" y="669">Fine Tune</text><text class="m" x="730" y="669">— extra training to make it a specialist</text>
+      <circle cx="623" cy="694" r="3" fill="#996007"/><text class="t" x="637" y="699">LoRA / PEFT</text><text class="m" x="752" y="699">— cheap tuning: train a small add-on</text>
+    </g>
+    <g transform="translate(660,740)" fill="none" stroke="#996007" stroke-width="2.6">
+      <circle cx="0" cy="0" r="14"/><circle cx="40" cy="0" r="8"/><circle cx="74" cy="0" r="5"/>
+      <line x1="14" y1="0" x2="32" y2="0" stroke="#c98a1a"/><line x1="48" y1="0" x2="69" y2="0" stroke="#c98a1a"/>
+    </g>
+    <text class="note" x="780" y="748" transform="rotate(-2 780 748)">turns a general model into a specialist</text>
+  </g>
+
+  <!-- ================= CARD 6 : Safety, Quality & QA ================= -->
+  <g>
+    <rect x="1122" y="520" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="1152" y="542" width="463" height="44" rx="10" fill="#fbc0c0"/>
+    <text class="hdr" x="1168" y="571" fill="#8f1414">6 · Safety, Quality &amp; QA</text>
+    <g transform="translate(1581,564)" stroke="#8f1414" stroke-width="2.2" fill="none">
+      <path d="M0,-15 L13,-9 V2 Q13,13 0,17 Q-13,13 -13,2 V-9 Z"/><path d="M-6,0 L-1,5 L7,-4"/>
+    </g>
+    <circle cx="1137" cy="564" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="1137" y="571" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">6</text>
+    <line x1="1152" y1="602" x2="1615" y2="602" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="1164" cy="628" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="633">Bias</text><text class="m" x="1224" y="633">— a repeated unfair lean in its output</text>
+      <circle cx="1164" cy="654" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="659">Hallucination</text><text class="m" x="1294" y="659">— confidently making things up</text>
+      <circle cx="1164" cy="680" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="685">Prompt Injection</text><text class="m" x="1320" y="685">— hidden text that hijacks its rules</text>
+      <circle cx="1164" cy="706" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="711">Guardrails</text><text class="m" x="1268" y="711">— checks that block unsafe output</text>
+      <circle cx="1164" cy="732" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="737">Parsing</text><text class="m" x="1246" y="737">— turning text into tidy, usable data</text>
+      <circle cx="1164" cy="758" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="763">Evals</text><text class="m" x="1230" y="763">— systematic tests that score quality</text>
+      <circle cx="1164" cy="784" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="789">QA</text><text class="m" x="1212" y="789">— testing and verifying AI behaviour overall</text>
+    </g>
+  </g>
+
+  <!-- ================= Bottom strip ================= -->
+  <rect x="40" y="850" width="1599" height="140" rx="18" filter="url(#shadow)" class="card"/>
+  <text x="66" y="884" font-size="17" font-weight="700" fill="#0b2440" font-family="Trebuchet MS, Segoe UI, sans-serif">How they work together in production</text>
+  <g font-size="14.5" font-weight="700" text-anchor="middle" fill="#0b1f33">
+    <rect x="66" y="898" width="204" height="52" rx="12" fill="#c3ddfb" stroke="#2f63a8" stroke-width="1.8"/><text x="168" y="930">Prompt</text>
+    <rect x="290" y="898" width="204" height="52" rx="12" fill="#b6ecd0" stroke="#0b7a52" stroke-width="1.8"/><text x="392" y="930">Retrieve (RAG)</text>
+    <rect x="514" y="898" width="204" height="52" rx="12" fill="#d9c2fb" stroke="#6b2ecb" stroke-width="1.8"/><text x="616" y="930">Generate</text>
+    <rect x="738" y="898" width="204" height="52" rx="12" fill="#fbe0a3" stroke="#a06a0a" stroke-width="1.8"/><text x="840" y="930">Parse</text>
+    <rect x="962" y="898" width="204" height="52" rx="12" fill="#fbc0c0" stroke="#a01717" stroke-width="1.8"/><text x="1064" y="930">Guardrails</text>
+    <rect x="1186" y="898" width="204" height="52" rx="12" fill="#fbc7dd" stroke="#a1154f" stroke-width="1.8"/><text x="1288" y="930">Evals</text>
+    <rect x="1410" y="898" width="204" height="52" rx="12" fill="#fbe0a3" stroke="#a06a0a" stroke-width="1.8"/><text x="1512" y="930">Ground Truth</text>
+  </g>
+  <g stroke="#0b1f33" stroke-width="2.4" fill="none" marker-end="url(#ha)">
+    <path d="M272,924 Q281,916 288,924"/>
+    <path d="M496,924 Q505,916 512,924"/>
+    <path d="M720,924 Q729,916 736,924"/>
+    <path d="M944,924 Q953,916 960,924"/>
+    <path d="M1168,924 Q1177,916 1184,924"/>
+    <path d="M1392,924 Q1401,916 1408,924"/>
+  </g>
+  <text class="note" x="66" y="976">look it up → answer → check it  (Ground Truth is the benchmark)</text>
+
+  <text x="40" y="1016" font-size="13.5" fill="#1f3448">Full definitions, analogies and sources: AI_Glossary_Keywords.md   ·   Sources: arXiv · OWASP GenAI LLM Top 10 2026 · NIST AI RMF · Google ML Glossary · modelcontextprotocol.io · langchain.com</text>
+</svg>

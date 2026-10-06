@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1040" viewBox="0 0 1680 1040" font-family="Segoe UI, Trebuchet MS, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-8%" y="-8%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#64748b" flood-opacity="0.45"/>
+    </filter>
+    <marker id="hb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1f3448"/>
+    </marker>
+    <style>
+      .card { fill:#ffffff; stroke:#3f6fa8; stroke-width:2.4; }
+      .hdr { font-weight:700; font-size:19px; font-family:'Trebuchet MS',Segoe UI,sans-serif; }
+      .t { font-weight:700; font-size:14px; fill:#0b1f33; }
+      .m { font-size:13px; fill:#1f3448; }
+      .note { font-family:'Segoe Print','Comic Sans MS',cursive; font-weight:600; font-size:15.5px; fill:#123a63; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1680" height="1040" fill="#ffffff"/>
+
+  <!-- ===== Title brush banner ===== -->
+  <path d="M360,42 Q840,30 1322,44 Q1336,76 1320,104 Q840,116 360,102 Q346,72 360,42 Z" fill="#a9d4ff"/>
+  <text x="840" y="84" text-anchor="middle" font-size="40" font-weight="700" fill="#0b2440" font-family="Trebuchet MS, Segoe UI, sans-serif">Open Source vs Closed Source AI Models</text>
+  <path d="M560,132 Q840,124 1120,132" stroke="#3f6fa8" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="840" y="162" text-anchor="middle" font-size="18" font-weight="600" fill="#1f3448">What they are  ·  which models exist in 2026  ·  how to choose</text>
+
+  <g fill="#f4b400">
+    <path d="M330,64 l3,-11 3,11 11,3 -11,3 -3,11 -3,-11 -11,-3 Z"/>
+    <path d="M1346,58 l2.5,-9 2.5,9 9,2.5 -9,2.5 -2.5,9 -2.5,-9 -9,-2.5 Z"/>
+    <path d="M470,116 l2,-7 2,7 7,2 -7,2 -2,7 -2,-7 -7,-2 Z"/>
+    <path d="M1210,120 l2,-7 2,7 7,2 -7,2 -2,7 -2,-7 -7,-2 Z"/>
+    <rect x="286" y="56" width="16" height="5" rx="2.5"/>
+    <rect x="1370" y="96" width="16" height="5" rx="2.5"/>
+  </g>
+  <text class="note" x="120" y="58" transform="rotate(-4 120 58)">open weight ≠ open source</text>
+  <path d="M300,54 Q322,44 344,56" stroke="#1f3448" stroke-width="2" fill="none" marker-end="url(#hb)"/>
+
+  <!-- ================= CARD 1 : What is Open Source? ================= -->
+  <g>
+    <rect x="40" y="190" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="70" y="212" width="463" height="44" rx="10" fill="#c3ddfb"/>
+    <text class="hdr" x="86" y="241" fill="#0f3d9e">1 · What is Open Source?</text>
+    <circle cx="55" cy="234" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="55" y="241" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">1</text>
+    <g transform="translate(499,234)" stroke="#0f3d9e" stroke-width="2.2" fill="none">
+      <rect x="-11" y="-2" width="22" height="16" rx="3"/><path d="M-5,-2 V-9 A5,5 0 0 1 5,-9 V-5"/>
+    </g>
+    <line x1="70" y1="272" x2="533" y2="272" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="82" cy="300" r="3" fill="#0f3d9e"/><text class="t" x="96" y="305">Use</text><text class="m" x="146" y="305">— for any purpose, without permission</text>
+      <circle cx="82" cy="328" r="3" fill="#0f3d9e"/><text class="t" x="96" y="333">Study</text><text class="m" x="162" y="333">— inspect how it works</text>
+      <circle cx="82" cy="356" r="3" fill="#0f3d9e"/><text class="t" x="96" y="361">Modify</text><text class="m" x="170" y="361">— change it, including its outputs</text>
+      <circle cx="82" cy="384" r="3" fill="#0f3d9e"/><text class="t" x="96" y="389">Share</text><text class="m" x="162" y="389">— redistribute, with or without changes</text>
+    </g>
+    <rect x="70" y="410" width="463" height="66" rx="10" fill="#ffe08a" stroke="#b8860b" stroke-width="1.8"/>
+    <text x="86" y="436" font-size="13.5" font-weight="700" fill="#5c4000">OSAID 1.0 also requires data info + code</text>
+    <text x="86" y="460" font-size="13" font-weight="600" fill="#5c4000">…so most “open” LLMs are open-weight only.</text>
+  </g>
+
+  <!-- ================= CARD 2 : What is Closed Source? ================= -->
+  <g>
+    <rect x="581" y="190" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="611" y="212" width="463" height="44" rx="10" fill="#fbc7dd"/>
+    <text class="hdr" x="627" y="241" fill="#8f1246">2 · What is Closed Source?</text>
+    <circle cx="596" cy="234" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="596" y="241" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">2</text>
+    <g transform="translate(1040,234)" stroke="#8f1246" stroke-width="2.2" fill="none">
+      <rect x="-11" y="-2" width="22" height="16" rx="3"/><path d="M-6,-2 V-8 A6,6 0 0 1 6,-8 V-2"/>
+    </g>
+    <line x1="611" y1="272" x2="1074" y2="272" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="623" cy="304" r="3" fill="#a1154f"/><text class="t" x="637" y="309">Weights not published</text><text class="m" x="815" y="309">— you can't download them</text>
+      <circle cx="623" cy="334" r="3" fill="#a1154f"/><text class="t" x="637" y="339">API / hosted only</text><text class="m" x="782" y="339">— no self-hosting</text>
+      <circle cx="623" cy="364" r="3" fill="#a1154f"/><text class="t" x="637" y="369">Provider controls</text><text class="m" x="782" y="369">— access, price and terms</text>
+      <circle cx="623" cy="394" r="3" fill="#a1154f"/><text class="t" x="637" y="399">Can be revoked</text><text class="m" x="775" y="399">— access may change or end</text>
+    </g>
+    <text class="note" x="640" y="446" transform="rotate(-2 640 446)">you can't inspect or fine-tune the weights</text>
+  </g>
+
+  <!-- ================= CARD 3 : Open-Weight Models ================= -->
+  <g>
+    <rect x="1122" y="190" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="1152" y="212" width="463" height="44" rx="10" fill="#b6ecd0"/>
+    <text class="hdr" x="1168" y="241" fill="#04543c">3 · Open-Weight Models</text>
+    <circle cx="1137" cy="234" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="1137" y="241" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">3</text>
+    <g transform="translate(1581,234)" stroke="#04543c" stroke-width="2.2" fill="none">
+      <path d="M0,-14 V2"/><path d="M-7,-4 L0,3 L7,-4"/><path d="M-12,9 H12"/>
+    </g>
+    <line x1="1152" y1="272" x2="1615" y2="272" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="1164" cy="298" r="3" fill="#06694a"/><text class="t" x="1178" y="303">Meta — Llama 4</text><text class="m" x="1330" y="303">(community licence)</text>
+      <circle cx="1164" cy="324" r="3" fill="#06694a"/><text class="t" x="1178" y="329">Google — Gemma 4</text><text class="m" x="1352" y="329">(Apache 2.0)</text>
+      <circle cx="1164" cy="350" r="3" fill="#06694a"/><text class="t" x="1178" y="355">OpenAI — gpt-oss</text><text class="m" x="1340" y="355">120b / 20b (Apache 2.0)</text>
+      <circle cx="1164" cy="376" r="3" fill="#06694a"/><text class="t" x="1178" y="381">DeepSeek — R1 / V4</text><text class="m" x="1356" y="381">(MIT)</text>
+      <circle cx="1164" cy="402" r="3" fill="#06694a"/><text class="t" x="1178" y="407">Alibaba — Qwen 2.5→3.8</text><text class="m" x="1392" y="407">(Apache 2.0)</text>
+      <circle cx="1164" cy="428" r="3" fill="#06694a"/><text class="t" x="1178" y="433">Moonshot — Kimi K3</text><text class="m" x="1352" y="433">(~2.8T params)</text>
+      <circle cx="1164" cy="454" r="3" fill="#06694a"/><text class="t" x="1178" y="459">Z.ai — GLM-4.6 / 5.x</text><text class="m" x="1360" y="459">(MIT)</text>
+      <circle cx="1164" cy="480" r="3" fill="#06694a"/><text class="t" x="1178" y="485">Mistral · Phi · OLMo</text><text class="m" x="1362" y="485">· Falcon · Granite</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 4 : Closed Models ================= -->
+  <g>
+    <rect x="40" y="520" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="70" y="542" width="463" height="44" rx="10" fill="#d9c2fb"/>
+    <text class="hdr" x="86" y="571" fill="#4b16a8">4 · Closed Models</text>
+    <circle cx="55" cy="564" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="55" y="571" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">4</text>
+    <g transform="translate(499,564)" stroke="#4b16a8" stroke-width="2.2" fill="none">
+      <path d="M-14,4 a7,7 0 0 1 1,-13 a9,9 0 0 1 17,-2 a6,6 0 0 1 -1,15 z"/>
+    </g>
+    <line x1="70" y1="602" x2="533" y2="602" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="82" cy="628" r="3" fill="#5b21b6"/><text class="t" x="96" y="633">OpenAI — GPT-5.x / GPT-6</text>
+      <circle cx="82" cy="654" r="3" fill="#5b21b6"/><text class="t" x="96" y="659">Anthropic — Claude Opus 4.6</text>
+      <circle cx="82" cy="680" r="3" fill="#5b21b6"/><text class="t" x="96" y="685">Google — Gemini 3 / 3.1 Pro</text>
+      <circle cx="82" cy="706" r="3" fill="#5b21b6"/><text class="t" x="96" y="711">xAI — Grok 4.x</text>
+      <circle cx="82" cy="732" r="3" fill="#5b21b6"/><text class="t" x="96" y="737">Meta — Muse Spark</text><text class="m" x="300" y="737">(closed, Apr 2026)</text>
+      <circle cx="82" cy="758" r="3" fill="#5b21b6"/><text class="t" x="96" y="763">Cohere Command · Amazon Nova</text>
+      <circle cx="82" cy="784" r="3" fill="#5b21b6"/><text class="t" x="96" y="789">Apple Intelligence · Copilot</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 5 : Head-to-Head ================= -->
+  <g>
+    <rect x="581" y="520" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="611" y="542" width="463" height="44" rx="10" fill="#fbe0a3"/>
+    <text class="hdr" x="627" y="571" fill="#7a3d05">5 · Head-to-Head</text>
+    <circle cx="596" cy="564" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="596" y="571" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">5</text>
+    <g transform="translate(1040,564)" stroke="#7a3d05" stroke-width="2.2" fill="none">
+      <line x1="0" y1="-14" x2="0" y2="8"/><line x1="-15" y1="-7" x2="15" y2="-7"/>
+      <path d="M-15,-7 L-11,1 H-19 Z"/><path d="M15,-7 L19,1 H11 Z"/><line x1="-8" y1="8" x2="8" y2="8"/>
+    </g>
+    <line x1="611" y1="602" x2="1074" y2="602" stroke="#cddcec" stroke-width="2"/>
+    <text x="627" y="621" font-size="12" font-weight="700" fill="#0f3d9e">OPEN</text>
+    <text x="690" y="621" font-size="12" font-weight="700" fill="#1f3448">↔</text>
+    <text x="706" y="621" font-size="12" font-weight="700" fill="#8f1246">CLOSED</text>
+    <g font-size="13" fill="#1f3448">
+      <text x="627" y="644"><tspan font-weight="700" fill="#0b1f33">Weights:</tspan> <tspan font-weight="600" fill="#0f3d9e">downloadable</tspan> <tspan font-weight="700" fill="#1f3448">↔</tspan> <tspan font-weight="600" fill="#8f1246">not released</tspan></text>
+      <text x="627" y="670"><tspan font-weight="700" fill="#0b1f33">Licence:</tspan> <tspan font-weight="600" fill="#0f3d9e">Apache / MIT</tspan> <tspan font-weight="700" fill="#1f3448">↔</tspan> <tspan font-weight="600" fill="#8f1246">service terms</tspan></text>
+      <text x="627" y="696"><tspan font-weight="700" fill="#0b1f33">Capability:</tspan> <tspan font-weight="600" fill="#0f3d9e">~4 months behind</tspan> <tspan font-weight="700" fill="#1f3448">↔</tspan> <tspan font-weight="600" fill="#8f1246">frontier leader</tspan></text>
+      <text x="627" y="722"><tspan font-weight="700" fill="#0b1f33">Cost:</tspan> <tspan font-weight="600" fill="#0f3d9e">GPUs &amp; ops</tspan> <tspan font-weight="700" fill="#1f3448">↔</tspan> <tspan font-weight="600" fill="#8f1246">pay per token</tspan></text>
+      <text x="627" y="748"><tspan font-weight="700" fill="#0b1f33">Privacy:</tspan> <tspan font-weight="600" fill="#0f3d9e">stays in-house</tspan> <tspan font-weight="700" fill="#1f3448">↔</tspan> <tspan font-weight="600" fill="#8f1246">provider-side</tspan></text>
+      <text x="627" y="774"><tspan font-weight="700" fill="#0b1f33">Safety:</tspan> <tspan font-weight="600" fill="#0f3d9e">irrevocable</tspan> <tspan font-weight="700" fill="#1f3448">↔</tspan> <tspan font-weight="600" fill="#8f1246">managed &amp; revocable</tspan></text>
+      <text x="627" y="800"><tspan font-weight="700" fill="#0b1f33">Best for:</tspan> <tspan font-weight="600" fill="#0f3d9e">cost &amp; control</tspan> <tspan font-weight="700" fill="#1f3448">↔</tspan> <tspan font-weight="600" fill="#8f1246">quality &amp; speed</tspan></text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 6 : How to Choose ================= -->
+  <g>
+    <rect x="1122" y="520" width="517" height="310" rx="18" filter="url(#shadow)" class="card"/>
+    <rect x="1152" y="542" width="463" height="44" rx="10" fill="#fbc0c0"/>
+    <text class="hdr" x="1168" y="571" fill="#8f1414">6 · How to Choose</text>
+    <circle cx="1137" cy="564" r="19" fill="#ffffff" stroke="#0f3d9e" stroke-width="2.4"/>
+    <text x="1137" y="571" text-anchor="middle" font-size="18" font-weight="700" fill="#0f3d9e">6</text>
+    <g transform="translate(1581,564)" stroke="#8f1414" stroke-width="2.2" fill="none">
+      <line x1="0" y1="-14" x2="0" y2="16"/><path d="M0,-10 H12 L16,-6 L12,-2 H0 Z"/><path d="M0,2 H-12 L-16,6 L-12,10 H0 Z"/>
+    </g>
+    <line x1="1152" y1="602" x2="1615" y2="602" stroke="#cddcec" stroke-width="2"/>
+    <g>
+      <circle cx="1164" cy="632" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="637">Choose OPEN for:</text><text class="m" x="1330" y="637">high volume, privacy, no lock-in</text>
+      <circle cx="1164" cy="664" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="669">Choose CLOSED for:</text><text class="m" x="1348" y="669">frontier quality, managed safety</text>
+      <circle cx="1164" cy="696" r="3" fill="#9e1b1b"/><text class="t" x="1178" y="701">Or ROUTE:</text><text class="m" x="1276" y="701">open for volume, closed for hard cases</text>
+    </g>
+    <rect x="1152" y="722" width="463" height="56" rx="10" fill="#ffe08a" stroke="#b8860b" stroke-width="1.8"/>
+    <text x="1168" y="748" font-size="13.5" font-weight="700" fill="#5c4000">Always check the licence first:</text>
+    <text x="1168" y="768" font-size="13" font-weight="600" fill="#5c4000">non-commercial? MAU cap? extra conditions at scale?</text>
+  </g>
+
+  <!-- ================= Bottom strip ================= -->
+  <rect x="40" y="850" width="1599" height="140" rx="18" filter="url(#shadow)" class="card"/>
+  <text x="66" y="884" font-size="17" font-weight="700" fill="#0b2440" font-family="Trebuchet MS, Segoe UI, sans-serif">The trade-off in one line</text>
+  <rect x="66" y="898" width="700" height="52" rx="12" fill="#c3ddfb" stroke="#2f63a8" stroke-width="1.8"/>
+  <text x="86" y="930" font-size="16" font-weight="700" fill="#0f3d9e">OPEN — cheaper · controllable · private · customisable</text>
+  <rect x="873" y="898" width="700" height="52" rx="12" fill="#fbc7dd" stroke="#a1154f" stroke-width="1.8"/>
+  <text x="893" y="930" font-size="16" font-weight="700" fill="#8f1246">CLOSED — strongest · managed · convenient · fastest</text>
+  <text x="819" y="932" text-anchor="middle" font-size="26" font-weight="700" fill="#0b1f33">↔</text>
+  <text class="note" x="66" y="976">pick per workload — or route between both</text>
+
+  <text x="40" y="1016" font-size="13.5" fill="#1f3448">Full definitions, model inventory, licences and sources: Open_vs_Closed_Source_Models_Guide.md   ·   Sources: OSI (OSAID 1.0) · Stanford HAI 2026 · Epoch AI · Menlo Ventures · Hugging Face · vendor docs</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <rect width="1200" height="1000" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-size="32" font-weight="700" fill="#0f172a">Open vs Closed AI Models — 2026</text>
+  <text x="600" y="84" text-anchor="middle" font-size="17" fill="#475569">The 5-second test: "Can I download the model weights and run them myself?"</text>
+
+  <!-- 5-second test -->
+  <rect x="470" y="104" width="260" height="44" rx="22" fill="#0f172a"/>
+  <text x="600" y="132" text-anchor="middle" font-size="17" font-weight="600" fill="#ffffff">Can I download it?</text>
+  <path d="M520 148 L330 190" stroke="#0f766e" stroke-width="3" fill="none"/>
+  <path d="M680 148 L870 190" stroke="#b45309" stroke-width="3" fill="none"/>
+  <text x="400" y="168" text-anchor="middle" font-size="16" font-weight="700" fill="#0f766e">YES</text>
+  <text x="800" y="168" text-anchor="middle" font-size="16" font-weight="700" fill="#b45309">NO</text>
+
+  <!-- OPEN panel -->
+  <rect x="40" y="195" width="545" height="470" rx="18" fill="#ecfdf5" stroke="#0f766e" stroke-width="2.5"/>
+  <text x="312" y="238" text-anchor="middle" font-size="26" font-weight="700" fill="#0f766e">🔓 OPEN-WEIGHT</text>
+  <text x="312" y="268" text-anchor="middle" font-size="17" fill="#134e4a">Analogy: <tspan font-weight="700">Owning a car</tspan> 🚗 — yours to drive, modify, maintain</text>
+
+  <g font-size="16" fill="#1e293b">
+    <text x="70" y="308">✔ Download the weights, run anywhere (even offline)</text>
+    <text x="70" y="334">✔ Full control: fine-tune, pin the version forever</text>
+    <text x="70" y="360">✔ Data never leaves your network</text>
+    <text x="70" y="386">✔ Often 5–20× cheaper per answer at scale</text>
+    <text x="70" y="412">✘ You run GPUs, scaling, security, updates</text>
+    <text x="70" y="438">✘ Usually a few months behind the very top</text>
+  </g>
+
+  <text x="70" y="478" font-size="17" font-weight="700" fill="#0f766e">2026 model families</text>
+  <g font-size="15" fill="#1e293b">
+    <text x="70"  y="506">• DeepSeek V4 (MIT)</text>
+    <text x="320" y="506">• Qwen 3.x (Apache 2.0)</text>
+    <text x="70"  y="532">• Kimi K2.x / K3</text>
+    <text x="320" y="532">• GLM-5.x (MIT)</text>
+    <text x="70"  y="558">• MiMo-V2.6 (Xiaomi)</text>
+    <text x="320" y="558">• Gemma 4 (Google)</text>
+    <text x="70"  y="584">• gpt-oss 120b / 20b</text>
+    <text x="320" y="584">• Llama 4 (Meta)</text>
+    <text x="70"  y="610">• Mistral Large 3 / Small 4</text>
+    <text x="320" y="610">• Nemotron 3, Phi-4, OLMo</text>
+  </g>
+  <text x="70" y="645" font-size="14" fill="#475569">Get them: Hugging Face · Ollama · LM Studio · hosted APIs</text>
+
+  <!-- CLOSED panel -->
+  <rect x="615" y="195" width="545" height="470" rx="18" fill="#fffbeb" stroke="#b45309" stroke-width="2.5"/>
+  <text x="887" y="238" text-anchor="middle" font-size="26" font-weight="700" fill="#b45309">🔒 CLOSED</text>
+  <text x="887" y="268" text-anchor="middle" font-size="17" fill="#78350f">Analogy: <tspan font-weight="700">Taking a taxi</tspan> 🚕 — fast, no upkeep, pay per ride</text>
+
+  <g font-size="16" fill="#1e293b">
+    <text x="645" y="308">✔ Top quality on the hardest tasks</text>
+    <text x="645" y="334">✔ API key → working in 5 minutes</text>
+    <text x="645" y="360">✔ Provider handles servers, scaling, safety</text>
+    <text x="645" y="386">✔ Mature image / audio / video support</text>
+    <text x="645" y="412">✘ Data goes to the provider; pay per token</text>
+    <text x="645" y="438">✘ Provider can change or retire the model</text>
+  </g>
+
+  <text x="645" y="478" font-size="17" font-weight="700" fill="#b45309">2026 model families</text>
+  <g font-size="15" fill="#1e293b">
+    <text x="645" y="506">• Claude — Opus 5.5, Sonnet 5.5, Fable 5.1, Haiku 4.5</text>
+    <text x="645" y="532">• GPT — GPT-6 (Astra / Sol / Luna), GPT-5.6</text>
+    <text x="645" y="558">• Gemini — Gemini 4 Argon, 3.1 Pro, 3.x Flash</text>
+    <text x="645" y="584">• Grok — Grok 4.7 (xAI)</text>
+    <text x="645" y="610">• Muse Spark (Meta) · Amazon Nova · Cohere</text>
+  </g>
+  <text x="645" y="645" font-size="14" fill="#475569">Use them: web apps · APIs · AWS Bedrock · Vertex · Azure</text>
+
+  <!-- Head-to-head strip -->
+  <text x="600" y="706" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Head-to-head: who wins?</text>
+  <g font-size="15">
+    <!-- header -->
+    <rect x="40" y="722" width="1120" height="34" rx="6" fill="#e2e8f0"/>
+    <text x="60"  y="745" font-weight="700" fill="#0f172a">Question</text>
+    <text x="520" y="745" font-weight="700" fill="#0f172a">Winner</text>
+    <text x="680" y="745" font-weight="700" fill="#0f172a">Why</text>
+
+    <text x="60"  y="780" fill="#1e293b">Raw intelligence</text>
+    <text x="520" y="780" font-weight="700" fill="#b45309">🔒 Closed</text>
+    <text x="680" y="780" fill="#475569">Leads every major leaderboard</text>
+
+    <text x="60"  y="808" fill="#1e293b">Cost at scale</text>
+    <text x="520" y="808" font-weight="700" fill="#0f766e">🔓 Open</text>
+    <text x="680" y="808" fill="#475569">Much cheaper per token</text>
+
+    <text x="60"  y="836" fill="#1e293b">Ease of getting started</text>
+    <text x="520" y="836" font-weight="700" fill="#b45309">🔒 Closed</text>
+    <text x="680" y="836" fill="#475569">No GPUs or servers needed</text>
+
+    <text x="60"  y="864" fill="#1e293b">Data privacy / offline use</text>
+    <text x="520" y="864" font-weight="700" fill="#0f766e">🔓 Open</text>
+    <text x="680" y="864" fill="#475569">Runs fully inside your network</text>
+
+    <text x="60"  y="892" fill="#1e293b">Fine-tuning &amp; version pinning</text>
+    <text x="520" y="892" font-weight="700" fill="#0f766e">🔓 Open</text>
+    <text x="680" y="892" fill="#475569">You own the weights</text>
+
+    <text x="60"  y="920" fill="#1e293b">Built-in safety guardrails</text>
+    <text x="520" y="920" font-weight="700" fill="#b45309">🔒 Closed</text>
+    <text x="680" y="920" fill="#475569">Maintained by the provider</text>
+  </g>
+
+  <text x="600" y="962" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">Neither is "better" — choose by quality needs, data privacy, cost and control.</text>
+  <text x="600" y="986" text-anchor="middle" font-size="13" fill="#64748b">Snapshot: October 2026 · version numbers change often · always check the license on the model card</text>
+</svg>
