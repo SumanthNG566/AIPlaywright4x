@@ -1,0 +1,5 @@
+console.log(5 + 9)
+console.log(10 - 2)
+console.log(4 * 7)
+console.log(20 / 4)
+console.log(10 % 3)
